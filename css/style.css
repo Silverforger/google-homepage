@@ -64,25 +64,6 @@ body {
     height: 45px;
 }
 
-.flexicon {
-    display: flex;
-    justify-content: space-between;
-    width: 92%;
-    margin: auto;
-    position: relative;
-    top: -75%;
-}
-
-.searchicon {
-    display: inline-block;
-    color: #ffffff5b;
-}
-
-.micicon {
-    display: inline-block;
-    color: #ffffff5b;
-}
-
 .searchbar {
     min-width: 465px;
     margin: auto;
@@ -99,6 +80,26 @@ body {
 .searchbar:hover {
     background-color: #303134;
     border: none;
+}
+
+.flexicon {
+    display: flex;
+    justify-content: space-between;
+    width: 92%;
+    height: 0;
+    margin: auto;
+    position: relative;
+    top: -75%;
+}
+
+.searchicon {
+    display: inline-block;
+    color: #ffffff5b;
+}
+
+.micicon {
+    display: inline-block;
+    color: #ffffff5b;
 }
 
 .btn {
